@@ -3,7 +3,7 @@ function getName(name){
 }
 
 
-let a = true;
+let a = false;
 let b = true;
 
-console.log(a && getName("sanjula madushanka"));
+console.log(a || getName("sanjula madushanka"));

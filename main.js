@@ -81,3 +81,26 @@ console.log(getArrayFirstValue , getArraySecondValue);
 const[arrayFirstValue,arraySecondValue,arrayThirdValue]=array;
 
 console.log(arrayFirstValue , arraySecondValue, arrayThirdValue);
+
+
+//Default parameters, spread operators and rest parameters
+
+function mulOfTwoNumbers(num1,num2){
+    return num1*num2;
+}
+
+console.log(mulOfTwoNumbers(2,3));
+
+const array2=[2,3,4];
+const array3=[5,6,7];
+
+console.log([...array2]);
+console.log([10,...array2,...array3]);
+
+
+function getInFo(a,...c){
+    console.log(a,...c);
+    
+    return "sanjula madushanka";
+}
+console.log(getInFo(1,2,3,4,5,6,7,8,9));
